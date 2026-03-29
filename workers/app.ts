@@ -1,23 +1,22 @@
-import { createRequestHandler } from "react-router";
-
-declare module "react-router" {
-  export interface AppLoadContext {
-    cloudflare: {
-      env: Env;
-      ctx: ExecutionContext;
-    };
-  }
+export interface Env {
+  ASSETS: Fetcher;
 }
 
-const requestHandler = createRequestHandler(
-  () => import("virtual:react-router/server-build"),
-  import.meta.env.MODE
-);
-
 export default {
-  async fetch(request, env, ctx) {
-    return requestHandler(request, {
-      cloudflare: { env, ctx },
-    });
+  async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+
+    // 静的アセット（JS/CSS/画像など）はそのまま返す
+    const assetExtensions = /\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|json|txt)$/;
+    if (assetExtensions.test(url.pathname)) {
+      const response = await env.ASSETS.fetch(request);
+      if (response.status !== 404) {
+        return response;
+      }
+    }
+
+    // SPA: 全ルートを index.html で返す
+    const indexUrl = new URL("/index.html", url.origin);
+    return env.ASSETS.fetch(new Request(indexUrl.toString(), request));
   },
 } satisfies ExportedHandler<Env>;
