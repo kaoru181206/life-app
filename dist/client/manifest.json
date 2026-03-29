@@ -1,0 +1,21 @@
+{
+  "name": "FitQuest - トレーニング管理",
+  "short_name": "FitQuest",
+  "description": "トレーニングを記録してキャラクターを育てよう！",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "sports"],
+  "lang": "ja",
+  "dir": "ltr"
+}

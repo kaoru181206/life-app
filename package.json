@@ -5,17 +5,21 @@
 	"scripts": {
 		"build": "react-router build",
 		"cf-typegen": "wrangler types",
-		"deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && wrangler pages deploy dist/client --project-name life-app",
 		"dev": "react-router dev",
 		"postinstall": "npm run cf-typegen",
 		"preview": "npm run build && vite preview",
 		"typecheck": "npm run cf-typegen && react-router typegen && tsc -b"
 	},
 	"dependencies": {
+		"date-fns": "^4.1.0",
+		"firebase": "^12.11.0",
+		"html-to-image": "^1.11.13",
 		"isbot": "^5.1.31",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1",
-		"react-router": "^7.10.0"
+		"react-router": "^7.10.0",
+		"recharts": "^3.8.1"
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "^1.13.5",

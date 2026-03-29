@@ -1,0 +1,214 @@
+{
+  "_Button-umEgDSVR.js": {
+    "file": "assets/Button-umEgDSVR.js",
+    "name": "Button",
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js"
+    ]
+  },
+  "_CharacterAvatar-BxuzLYWU.js": {
+    "file": "assets/CharacterAvatar-BxuzLYWU.js",
+    "name": "CharacterAvatar",
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js"
+    ]
+  },
+  "_Input-B1Zufpbz.js": {
+    "file": "assets/Input-B1Zufpbz.js",
+    "name": "Input",
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js"
+    ]
+  },
+  "_chunk-UVKPFVEO-DVmc-FZO.js": {
+    "file": "assets/chunk-UVKPFVEO-DVmc-FZO.js",
+    "name": "chunk-UVKPFVEO"
+  },
+  "_format-pMK9VmZY.js": {
+    "file": "assets/format-pMK9VmZY.js",
+    "name": "format"
+  },
+  "_index-BPe482it.js": {
+    "file": "assets/index-BPe482it.js",
+    "name": "index",
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js"
+    ]
+  },
+  "_ja-BnwnpnnY.js": {
+    "file": "assets/ja-BnwnpnnY.js",
+    "name": "ja",
+    "imports": [
+      "_format-pMK9VmZY.js"
+    ]
+  },
+  "_useAuth-ltRs1vsW.js": {
+    "file": "assets/useAuth-ltRs1vsW.js",
+    "name": "useAuth",
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js"
+    ]
+  },
+  "_useWorkouts-CGZvYhki.js": {
+    "file": "assets/useWorkouts-CGZvYhki.js",
+    "name": "useWorkouts",
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useAuth-ltRs1vsW.js"
+    ]
+  },
+  "app/entry.client.tsx": {
+    "file": "assets/entry.client-B1jvwvH_.js",
+    "name": "entry.client",
+    "src": "app/entry.client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_index-BPe482it.js"
+    ]
+  },
+  "app/root.tsx?__react-router-build-client-route": {
+    "file": "assets/root-CtYR3k24.js",
+    "name": "root",
+    "src": "app/root.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js"
+    ],
+    "css": [
+      "assets/root-DjbZUoxg.css"
+    ]
+  },
+  "app/routes/_index.tsx?__react-router-build-client-route": {
+    "file": "assets/_index-BC6sEmx0.js",
+    "name": "_index",
+    "src": "app/routes/_index.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useAuth-ltRs1vsW.js",
+      "_CharacterAvatar-BxuzLYWU.js"
+    ]
+  },
+  "app/routes/dashboard.tsx?__react-router-build-client-route": {
+    "file": "assets/dashboard-BikfaOYH.js",
+    "name": "dashboard",
+    "src": "app/routes/dashboard.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useWorkouts-CGZvYhki.js",
+      "_CharacterAvatar-BxuzLYWU.js",
+      "_useAuth-ltRs1vsW.js",
+      "_format-pMK9VmZY.js",
+      "_ja-BnwnpnnY.js"
+    ]
+  },
+  "app/routes/login.tsx?__react-router-build-client-route": {
+    "file": "assets/login-B_i76jz2.js",
+    "name": "login",
+    "src": "app/routes/login.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useAuth-ltRs1vsW.js",
+      "_Button-umEgDSVR.js",
+      "_Input-B1Zufpbz.js"
+    ]
+  },
+  "app/routes/profile.tsx?__react-router-build-client-route": {
+    "file": "assets/profile-Do2LaS_0.js",
+    "name": "profile",
+    "src": "app/routes/profile.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useWorkouts-CGZvYhki.js",
+      "_Button-umEgDSVR.js",
+      "_CharacterAvatar-BxuzLYWU.js",
+      "_useAuth-ltRs1vsW.js"
+    ]
+  },
+  "app/routes/share.$id.tsx?__react-router-build-client-route": {
+    "file": "assets/share._id-IAQOmetF.js",
+    "name": "share._id",
+    "src": "app/routes/share.$id.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useWorkouts-CGZvYhki.js",
+      "_Button-umEgDSVR.js",
+      "_CharacterAvatar-BxuzLYWU.js",
+      "_useAuth-ltRs1vsW.js",
+      "_format-pMK9VmZY.js",
+      "_ja-BnwnpnnY.js"
+    ]
+  },
+  "app/routes/signup.tsx?__react-router-build-client-route": {
+    "file": "assets/signup-DHURWXfT.js",
+    "name": "signup",
+    "src": "app/routes/signup.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useAuth-ltRs1vsW.js",
+      "_Button-umEgDSVR.js",
+      "_Input-B1Zufpbz.js"
+    ]
+  },
+  "app/routes/stats.tsx?__react-router-build-client-route": {
+    "file": "assets/stats-d8vvlaqn.js",
+    "name": "stats",
+    "src": "app/routes/stats.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useWorkouts-CGZvYhki.js",
+      "_useAuth-ltRs1vsW.js",
+      "_index-BPe482it.js",
+      "_format-pMK9VmZY.js",
+      "_ja-BnwnpnnY.js"
+    ]
+  },
+  "app/routes/workouts.$id.tsx?__react-router-build-client-route": {
+    "file": "assets/workouts._id-zfQ8KIxQ.js",
+    "name": "workouts._id",
+    "src": "app/routes/workouts.$id.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useWorkouts-CGZvYhki.js",
+      "_Button-umEgDSVR.js",
+      "_useAuth-ltRs1vsW.js",
+      "_format-pMK9VmZY.js",
+      "_ja-BnwnpnnY.js"
+    ]
+  },
+  "app/routes/workouts._index.tsx?__react-router-build-client-route": {
+    "file": "assets/workouts._index-B_NGUcSv.js",
+    "name": "workouts._index",
+    "src": "app/routes/workouts._index.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useWorkouts-CGZvYhki.js",
+      "_useAuth-ltRs1vsW.js",
+      "_format-pMK9VmZY.js",
+      "_ja-BnwnpnnY.js"
+    ]
+  },
+  "app/routes/workouts.new.tsx?__react-router-build-client-route": {
+    "file": "assets/workouts.new-BBquSCr5.js",
+    "name": "workouts.new",
+    "src": "app/routes/workouts.new.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-DVmc-FZO.js",
+      "_useWorkouts-CGZvYhki.js",
+      "_Button-umEgDSVR.js",
+      "_Input-B1Zufpbz.js",
+      "_useAuth-ltRs1vsW.js",
+      "_format-pMK9VmZY.js"
+    ]
+  }
+}
