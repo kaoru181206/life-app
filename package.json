@@ -5,7 +5,7 @@
 	"scripts": {
 		"build": "react-router build",
 		"cf-typegen": "wrangler types",
-    "deploy": "npm run build && wrangler pages deploy dist/client --project-name life-app",
+    "deploy": "npm run build && wrangler pages deploy build/client --project-name life-app",
 		"dev": "react-router dev",
 		"postinstall": "npm run cf-typegen",
 		"preview": "npm run build && vite preview",
